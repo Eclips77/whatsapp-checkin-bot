@@ -379,7 +379,7 @@ class WhatsAppAttendanceBot {
                 worksheet.addRow({
                     firstName: user.firstName,
                     lastName: user.lastName,
-                    attendance: attendanceReport ? attendanceReport.status : 'מחסר',
+                    attendance: attendanceReport ? attendanceReport.status : 'לא דווח',
                     shabbat: shabbatReport ? shabbatReport.status : 'לא דווח',
                     shabbatLocation: shabbatReport ? shabbatReport.location : '',
                     notes: ''
